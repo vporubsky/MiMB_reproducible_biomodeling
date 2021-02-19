@@ -7,9 +7,18 @@ import tkinter
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('TkAgg')
+
+# Todo:
+# Simulate with Tellurium and libroadrunner
 repressilator_mod = te.loadSBMLModel("https://www.ebi.ac.uk/biomodels/model/download/BIOMD0000000012?filename=BIOMD0000000012_url.xml")
 simulation_result = repressilator_mod.simulate(0, 500, 1000)
 repressilator_mod.plot(figsize = (10, 6), xtitle = 'Time', ytitle = 'Concentration')
 plt.show()
 
-#%% write and export SED-ML
+# Todo:
+# write and export SED-ML
+
+
+
+# Todo:
+# Store simulation results in HDF5 or formatted CSV file

@@ -20,13 +20,13 @@ class ParameterEstimation:
 
     def get_residuals(self):
         """Returns a matrix of residuals."""
+        return
 
-
-    def rmse_obj_function():
+    def rmse_obj_function(self):
         """Returns the RMSE."""
         # generate matrix of residuals between predicted and ground truth values
-        residuals = get_residuals()
-        least_sq
+        residuals = self.get_residuals()
+        least_sq = []
         return least_sq
 
     def estimate_parameters(self, experimental_data):
@@ -95,6 +95,7 @@ class ParameterEstimation:
 
         if save_to_file:
             # save figure
+            print('saved to file')
 
 
 #%% Set up parameter estimation routine

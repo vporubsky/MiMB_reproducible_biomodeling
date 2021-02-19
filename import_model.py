@@ -12,3 +12,16 @@ repressilator_mod = te.loadSBMLModel("https://www.ebi.ac.uk/biomodels/model/down
 simulation_result = repressilator_mod.simulate(0, 500, 1000)
 repressilator_mod.plot(figsize = (10, 6), xtitle = 'Time', ytitle = 'Concentration')
 plt.show()
+
+# Todo:
+# Visualize model with SBGN
+
+
+
+# Todo:
+# Add annotation to antimony
+
+
+
+# Todo:
+# Show git changelist
