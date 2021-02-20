@@ -1,5 +1,5 @@
-// Created by libAntimony v2.12.0
-model *BIOMD0000000012()
+repressilator_antimony = """
+model BIOMD0000000012
   // Compartments and Species:
   compartment cell;
   substanceOnly species PX in cell, PY in cell, PZ in cell, X in cell, Y in cell;
@@ -141,9 +141,4 @@ model *BIOMD0000000012()
   Reaction11 hypernym "http://identifiers.org/obo.go/GO:0006351"
   Reaction12 hypernym "http://identifiers.org/obo.go/GO:0006351"
 end
-BIOMD0000000012 is "Elowitz2000 - Repressilator"
-BIOMD0000000012 model_entity_is "http://identifiers.org/biomodels.db/MODEL6615351360"
-BIOMD0000000012 model_entity_is "http://identifiers.org/biomodels.db/BIOMD0000000012"
-BIOMD0000000012 description "http://identifiers.org/pubmed/10659856"
-BIOMD0000000012 taxon "http://identifiers.org/taxonomy/562"
-BIOMD0000000012 hypernym "http://identifiers.org/obo.go/GO:0040029"
+"""
