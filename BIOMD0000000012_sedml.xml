@@ -10,28 +10,28 @@
     </uniformTimeCourse>
   </listOfSimulations>
   <listOfTasks>
-    <task id="BIOMD0000000012_det_sim" modelReference="BIOMD0000000012" simulationReference="det_sim"/>
+    <task id="run_det_sim" modelReference="BIOMD0000000012" simulationReference="det_sim"/>
   </listOfTasks>
   <listOfDataGenerators>
-    <dataGenerator id="plot_0_0_0" name="time">
+    <dataGenerator id="plot_0_0_0" name="run_det_sim.time">
       <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <ci> time </ci>
+        <ci> run_det_sim_____time </ci>
       </math>
       <listOfVariables>
-        <variable id="time" symbol="urn:sedml:symbol:time" taskReference="BIOMD0000000012_det_sim" modelReference="BIOMD0000000012"/>
+        <variable id="run_det_sim_____time" symbol="urn:sedml:symbol:time" taskReference="run_det_sim" modelReference="BIOMD0000000012"/>
       </listOfVariables>
     </dataGenerator>
-    <dataGenerator id="plot_0_0_1" name="PX">
+    <dataGenerator id="plot_0_0_1" name="run_det_sim.PX">
       <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <ci> PX </ci>
+        <ci> run_det_sim_____PX </ci>
       </math>
       <listOfVariables>
-        <variable id="PX" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='PX']" taskReference="BIOMD0000000012_det_sim" modelReference="BIOMD0000000012"/>
+        <variable id="run_det_sim_____PX" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='PX']" taskReference="run_det_sim" modelReference="BIOMD0000000012"/>
       </listOfVariables>
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_0" name="Repressilator PX dynamics (Mdoel ID: BIOMD0000000012)">
+    <plot2D id="plot_0" name="Repressilator dynamics">
       <listOfCurves>
         <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_0_1"/>
       </listOfCurves>

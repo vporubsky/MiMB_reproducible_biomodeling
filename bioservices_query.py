@@ -6,6 +6,8 @@ Description: Query KEGG database for example identifier using the bioservices pa
 from bioservices import *
 import pandas as pd
 # Todo: clean up
+# Todo: add seed value to monte carlo/ parameter estimation optimization
+# Todo: clean up imports - not working in the jupyter notebook
 # Todo: Add additional imports
 # Todo: Use os.path.join instead of current paths
 # Todo: Add annotations to the parameter estimation HDF5 files and other saved datasets
@@ -24,9 +26,9 @@ tetR_dict = database.parse(tetR_query)
 
 # Show information about the query
 print(tetR_dict['NAME'])
-print(tetR_dict['DEFINITION'])
+print(tetR_dict['BRITE'])
 
-
-# Store data
-df = pd.DataFrame()
-df.to_excel('BIOMD0000000012_metadata.xlsx')
+# Store collected metadata or experimental measurements
+BIOMD0000000012_metadata = pd.DataFrame([[tetR_dict['NAME']],[tetR_dict['BRITE']]],
+                                        ['BIOCHEMICAL SPECIES NAME','BRITE'])
+BIOMD0000000012_metadata.to_excel('BIOMD0000000012_metadata.xlsx')

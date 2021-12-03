@@ -31,7 +31,7 @@ BIOMD0000000012_phrasedml = '''
   // Deterministic simulation
   det_sim = simulate uniform(0, 500, 1000)
   BIOMD0000000012_det_sim = run det_sim on BIOMD0000000012
-  plot "Repressilator PX dynamics (Mdoel ID: BIOMD0000000012)" time vs PX
+  plot "Repressilator PX dynamics (Model ID: BIOMD0000000012)" time vs PX
 '''
 
 # Generate SED-ML string from the phraSED-ML string

@@ -1,7 +1,5 @@
 # MiMB_reproducible_biomodeling
 
-All materials associated with the chapter for Methods in Molecular Biology entitled, "A practical guide to reproducible
-modeling for signaling networks" are contained in this repository.
 
 
 <!-- PROJECT SHIELDS -->
@@ -31,17 +29,20 @@ modeling for signaling networks" are contained in this repository.
   <h3 align="center">MiMB_reproducible_biomodeling</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
+    All materials associated with the chapter for Methods in Molecular Biology entitled, 
+    "A practical guide to reproducible modeling for signaling networks" are contained in this 
+    repository.
+
+<br />
+<a href="https://github.com/vporubsky/MiMB_reproducible_biomodeling"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+<a href="https://github.com/vporubsky/MiMB_reproducible_biomodeling">View Demo</a>
+·
+<a href="https://github.com/vporubsky/MiMB_reproducible_biomodeling/issues">Report Bug</a>
+·
+<a href="https://github.com/vporubsky/MiMB_reproducible_biomodeling/issues">Request Feature</a>
+</p>
 </p>
 
 
@@ -140,14 +141,6 @@ Veronica Porubksy - verosky@uw.edu
 
 Project Link: [https://github.com/vporubsky/MiMB_reproducible_biomodeling](https://github.com/vporubsky/MiMB_reproducible_biomodeling)
 
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 

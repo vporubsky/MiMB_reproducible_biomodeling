@@ -9,7 +9,6 @@ from lmfit import Minimizer, Parameters, Parameter
 import random
 import pandas as pd
 
-
 # %% DATA GENERATION
 def get_data(model, noise_level=0.5, time_start=0, time_end=10, num_pts=10, species=None):
     """
@@ -62,7 +61,6 @@ class ParameterEstimation:
     Provides parameter estimation functionality for the MiMB reproducible modeling study
     of BIOMD0000000012 using lmfit package.
     """
-
     def __init__(self, model, data, params, species_selections):
         """
         User supplies a RoadRunner object instance of the model system being studied,
@@ -222,7 +220,6 @@ class ParameterEstimation:
             while not optimization_successful:
                 try:
                     optimized_params = self.optimize_parameters()
-
                     # Evaluate constraint: system has complex eigenvalues due to known
                     # oscillatory dynamics of BIOMD0000000012
                     if np.iscomplex(self.model.getFullEigenValues()).any():
