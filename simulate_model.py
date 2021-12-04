@@ -1,6 +1,15 @@
 """
-Author: Veronica Porubsky
+Developer: Veronica Porubsky
+Developer ORCID: 0000-0001-7216-3368
+Developer GitHub Username: vporubsky
+Developer Email: verosky@uw.edu
+Model Source: Elowitz and Leibler (2000) repressilator model
+Model Publication DOI: 10.1038/35002125
+Model BioModel ID: BIOMD0000000012
+Model BioModel URL: https://www.ebi.ac.uk/biomodels/BIOMD0000000012
+
 Description: Program to simulate BIOMD0000000012 using Tellurium.
+
 (Elowitz and Leibler repressilator model, 2000, DOI: 10.1038/35002125)
 See: https://www.ebi.ac.uk/biomodels/BIOMD0000000012 for model documentation on BioModels Database.
 """
@@ -29,9 +38,9 @@ BIOMD0000000012_phrasedml = '''
   BIOMD0000000012 = model "BIOMD0000000012.xml" 
 
   // Deterministic simulation
-  det_sim = simulate uniform(0, 500, 1000)
-  BIOMD0000000012_det_sim = run det_sim on BIOMD0000000012
-  plot "Repressilator PX dynamics (Model ID: BIOMD0000000012)" time vs PX
+  det_sim = simulate uniform(0, 500, 1000) # deterministic simulation from time 0 to 500 with 1000 points
+  BIOMD0000000012_det_sim = run det_sim on BIOMD0000000012 # execute the deterministic simulation
+  plot "Repressilator PX dynamics (Model ID: BIOMD0000000012)" time vs PX # plot time vs protein 'PX'
 '''
 
 # Generate SED-ML string from the phraSED-ML string

@@ -1,6 +1,15 @@
 """
-Author: Veronica Porubsky
+Developer: Veronica Porubsky
+Developer ORCID: 0000-0001-7216-3368
+Developer GitHub Username: vporubsky
+Developer Email: verosky@uw.edu
+Model Source: Elowitz and Leibler (2000) repressilator model
+Model Publication DOI: 10.1038/35002125
+Model BioModel ID: BIOMD0000000012
+Model BioModel URL: https://www.ebi.ac.uk/biomodels/BIOMD0000000012
+
 Description: Program to estimate parameters for BIOMD0000000012.
+
 (Elowitz and Leibler repressilator model, 2000, DOI: 10.1038/35002125)
 See: https://www.ebi.ac.uk/biomodels/BIOMD0000000012 for model documentation on BioModels Database.
 """
@@ -10,6 +19,9 @@ from BIOMD0000000012_study_utils import ParameterEstimation
 import matplotlib.pyplot as plt
 
 # %% Set up parameter estimation routine
+import random
+random.seed(155)
+
 # Load synthetic dataset
 DATA_H5F = h5py.File('BIOMD0000000012_synthetic_data.h5', 'r')
 DATA = DATA_H5F['BIOMD0000000012_synthetic_dataset'][:]

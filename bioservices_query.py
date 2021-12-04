@@ -1,19 +1,22 @@
 """
-Author: Veronica Porubsky
+Developer: Veronica Porubsky
+Developer ORCID: 0000-0001-7216-3368
+Developer GitHub Username: vporubsky
+Developer Email: verosky@uw.edu
+Model Source: Elowitz and Leibler (2000) repressilator model
+Model Publication DOI: 10.1038/35002125
+Model BioModel ID: BIOMD0000000012
+Model BioModel URL: https://www.ebi.ac.uk/biomodels/BIOMD0000000012
+
 Description: Query KEGG database for example identifier using the bioservices package.
             Tet repressor protein KEGG Orthology term: http://identifiers.org/kegg.orthology/K18476
+
+(Elowitz and Leibler repressilator model, 2000, DOI: 10.1038/35002125)
+See: https://www.ebi.ac.uk/biomodels/BIOMD0000000012 for model documentation on BioModels Database.
 """
 from bioservices import *
 import pandas as pd
-# Todo: clean up
-# Todo: add seed value to monte carlo/ parameter estimation optimization
-# Todo: clean up imports - not working in the jupyter notebook
-# Todo: Add additional imports
-# Todo: Use os.path.join instead of current paths
-# Todo: Add annotations to the parameter estimation HDF5 files and other saved datasets
-# Todo: Store imported dataset in .xlsx file for annotation
-# Todo: Update README
-# Todo: update requirements.txt
+
 # %% Store annotation information
 # Select database
 database = KEGG()

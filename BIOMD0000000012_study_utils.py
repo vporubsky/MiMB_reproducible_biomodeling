@@ -1,6 +1,15 @@
 """
-Author: Veronica Porubsky
+Developer: Veronica Porubsky
+Developer ORCID: 0000-0001-7216-3368
+Developer GitHub Username: vporubsky
+Developer Email: verosky@uw.edu
+Model Source: Elowitz and Leibler (2000) repressilator model
+Model Publication DOI: 10.1038/35002125
+Model BioModel ID: BIOMD0000000012
+Model BioModel URL: https://www.ebi.ac.uk/biomodels/BIOMD0000000012
+
 Description: Supplemental utilities for MiMB reproducible modeling study.
+
 (Elowitz and Leibler repressilator model, 2000, DOI: 10.1038/35002125)
 See: https://www.ebi.ac.uk/biomodels/BIOMD0000000012 for model documentation on BioModels Database.
 """
@@ -197,7 +206,7 @@ class ParameterEstimation:
             Result of ParameterEstimation.optimize_parameters() method.
         :return: pandas.DataFrame
         """
-        # Initialize Monte Carlo routine
+        # Initialize Monte Carlo routine with model prediction, residuals, and a Monte Carlo array to store results
         if optimized_params is not None:
             pass
         else:
@@ -233,3 +242,29 @@ class ParameterEstimation:
 
         # Return pandas.DataFrame containing sets of optimized parameter values
         return pd.DataFrame(mc_array, columns=self.param_ids)
+
+# %% PARAMETER ESTIMATION FIGURES
+import matplotlib.pyplot as plt
+from math import pi
+
+def set_radar_plot_properties(data):
+    ''' Sets properties to plot radar plots.'''
+    categories = list(data.keys())
+    N = len(categories)
+
+    # Axis angles
+    angles = [n / float(N) * 2 * pi for n in range(N)]
+    angles += angles[:1]
+
+    # Initialise radar plot
+    ax = plt.subplot(111, polar=True)
+
+    # Draw one axis per parameter, and add parameter names
+    plt.xticks(angles[:-1], categories)
+
+    # Draw parameter value labels
+    ax.set_rlabel_position(0)
+    plt.yticks([1, 2, 3, 4], ["1", "2", "3", "4"], color="grey", size=7)
+    plt.ylim(0, 5)
+
+    return ax, angles
