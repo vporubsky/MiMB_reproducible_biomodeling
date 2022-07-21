@@ -52,9 +52,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -64,11 +61,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -79,18 +74,7 @@
 
 [![MiMB Reproducible Modeling Screen Shot][product-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_1.png)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
+While scientific disciplines revere reproducibility, many studies - experimental and computational alike - fall short of this ideal and cannot be reproduced or even repeated when the model is shared. For computational modeling of biochemical networks, there is a dearth of formal training and resources available describing how to practically implement reproducible methods, despite a wealth of existing tools and formats which could be used to support reproducibility. This chapter points the reader to useful software tools and standardized formats that support reproducible modeling of biochemical networks and provides suggestions on how to implement reproducible methods in practice. Many of the suggestions encourage readers to use best practices from the software development community in order to automate, test, and version control their model components. A Jupyter Notebook demonstrating several of the key steps in building a reproducible biochemical network model is included to supplement the recommendations in the text.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -99,23 +83,56 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+All software dependencies required to run the code contained in this repository using the same versions employed during development.
+* Python 3.8.2
+* pip packages
   ```sh
-  npm install npm@latest -g
+  pip install bioservices==1.7.11
   ```
+    ```sh
+  pip install tellurium==2.1.6
+  ```
+  ```sh
+  pip install matplotlib==3.3.4
+  ```
+  ```sh
+  pip install IPython==7.12.0
+  ```
+  ```sh
+  pip install libsbgnpy
+  ```
+  ```sh
+  pip install sbmllint
+  ```
+  ```sh
+  pip install sbmlutils~=0.4.9
+  ```
+  ```sh
+  pip install phrasedml~=1.1.1
+  ```
+  ```sh
+  pip install h5py~=3.1.0
+  ```
+  ```sh
+  pip install pandas~=1.2.2
+  ```
+  ```sh
+  pip install seaborn~=0.11.0
+  ```
+    ```sh
+  pip install scikit-learn~=0.24.1
+  ```
+    ```sh
+  pip install lmfit~=1.0.1
+  ```
+
 
 ### Installation
 
-1. Clone the repo
+Clone the repo
    ```sh
    git clone https://github.com/vporubsky/MiMB_reproducible_biomodeling.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -123,13 +140,18 @@ This is an example of how to list things you need to use the software and how to
 
 This is intended as an introduction to reproducible biochemical modeling in Python. 
 
+### Data Aggregation
 [![MiMB Reproducible Modeling Figure 2][fig2-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_2.png)
+### Documentation, Version Control, and Annotation
 [![MiMB Reproducible Modeling Figure 3][fig3-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_3.png)
+### Simulation
 [![MiMB Reproducible Modeling Figure 4][fig4-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_4.png)
+### Parameter Estimation
 [![MiMB Reproducible Modeling Figure 5][fig5-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_5.png)
+### Verification and Validation
 [![MiMB Reproducible Modeling Figure 6][fig6-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_6.png)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
 
 
 <!-- LICENSE -->
