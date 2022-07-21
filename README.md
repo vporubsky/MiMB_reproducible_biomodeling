@@ -43,7 +43,6 @@
 ·
 <a href="https://github.com/vporubsky/MiMB_reproducible_biomodeling/issues">Request Feature</a>
 </p>
-</p>
 
 
 
@@ -78,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![MiMB Reproducible Modeling Screen Shot][product-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/BIOMD0000000012_parameter_estimation_histograms.png?token=GHSAT0AAAAAABT5PSRIT33C2ZSXVS76KYCOYWW5JBQ)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -160,3 +159,4 @@ Project Link: [https://github.com/vporubsky/MiMB_reproducible_biomodeling](https
 [license-url]: https://github.com/vporubsky/MiMB_reproducible_biomodeling/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/veronica-porubsky/
+[product-screenshot]: https://github.com/vporubsky/MiMB_reproducible_biomodeling/blob/main/images/BIOMD0000000012_parameter_estimation_histograms.png
