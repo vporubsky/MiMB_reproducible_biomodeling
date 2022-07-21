@@ -77,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![MiMB Reproducible Modeling Screen Shot][product-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/BIOMD0000000012_parameter_estimation_histograms.png?token=GHSAT0AAAAAABT5PSRIT33C2ZSXVS76KYCOYWW5JBQ)
+[![MiMB Reproducible Modeling Screen Shot][product-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_1.png)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -121,7 +121,13 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is intended as an introduction to reproducible biochemical modeling in Python. 
+
+[![MiMB Reproducible Modeling Figure 2][fig2-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_2.png)
+[![MiMB Reproducible Modeling Figure 3][fig3-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_3.png)
+[![MiMB Reproducible Modeling Figure 4][fig4-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_4.png)
+[![MiMB Reproducible Modeling Figure 5][fig5-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_5.png)
+[![MiMB Reproducible Modeling Figure 6][fig6-screenshot]](https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_6.png)
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -160,3 +166,8 @@ Project Link: [https://github.com/vporubsky/MiMB_reproducible_biomodeling](https
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/veronica-porubsky/
 [product-screenshot]: https://github.com/vporubsky/MiMB_reproducible_biomodeling/blob/main/images/BIOMD0000000012_parameter_estimation_histograms.png
+[fig2-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_2.png
+[fig3-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_3.png
+[fig4-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_4.png
+[fig5-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_5.png
+[fig6-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_6.png
