@@ -187,7 +187,7 @@ Project Link: [https://github.com/vporubsky/MiMB_reproducible_biomodeling](https
 [license-url]: https://github.com/vporubsky/MiMB_reproducible_biomodeling/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/veronica-porubsky/
-[product-screenshot]: https://github.com/vporubsky/MiMB_reproducible_biomodeling/blob/main/images/BIOMD0000000012_parameter_estimation_histograms.png
+[product-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_1.png
 [fig2-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_2.png
 [fig3-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_3.png
 [fig4-screenshot]: https://raw.githubusercontent.com/vporubsky/MiMB_reproducible_biomodeling/main/images/figure_4.png
